@@ -9,6 +9,6 @@ test_voting.py predictes the data with the three models.
 ##when training models (because the data file save at the data1/, so it only need to run the train.py, else you need to adjust the position of the data\
 python train.py
 
-##when predicting,\
-1. rewrite the configure \
+##when predicting,
+1. rewrite the configure 
 2. python test_voting.py
