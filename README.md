@@ -13,7 +13,7 @@ test_voting.py predictes the data with the three models.
 ##getting the fearures, there is a start.bat file in the getting features, which can be directly used.
 1.hiv_dltree_get-feature_position_frequency_new.exe dataname_file save_filename standard_k-mers
 
-##when training models (because the data file save at the data1/, so it only need to run the train.py, else you need to adjust the position of the data
+##when training models (because the data file save at the data1/, so it only need to run the train.py, else you need to adjust the position of the data,
 1.python train.py
 
 ##when predicting,
