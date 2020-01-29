@@ -10,4 +10,4 @@
 ::hiv_dltree_get-feature_position_frequency_new.exe name/mix_19_A_D_G.txt 19 10cg/10cg_5000.txt
 ::hiv_dltree_get-feature_position_frequency_new.exe name/99100newname_cg.txt 99100cg 10cg/10cg_5000.txt
 ::hiv_dltree_get-feature_position_frequency_new.exe name/99100newname_pol.txt 99100pol 10cg/10cg_5000.txt
-hiv_dltree_get-feature_position_frequency_new.exe name/5name.txt 5 10cg/10cg_5000.txt
+hiv_dltree_get-feature_position_frequency_new.exe name/5name.txt 5 10cg_5000.txt
