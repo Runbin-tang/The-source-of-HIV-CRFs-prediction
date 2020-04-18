@@ -1,3 +1,4 @@
+10cg_5000.txt is the stander k-mer when kmax is 10.
 the *.bat file is the executable file of windows\
 hiv_dltree_get-feature_position_frequency_new.exe dataname_file save_filename 10cg_5000.txt
 the result will be saved the result/save_filename (If the 'result' folder is not occurence, creating a folder called 'result')
