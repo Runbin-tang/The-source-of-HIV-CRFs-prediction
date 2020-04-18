@@ -1,1 +1,3 @@
 The names of sequences which need to be predicted.
+Before extracting the features of sequences in the file, you need use the corresponding file to download the sequence files.
+Accession number of the sequences is also showed in the file.
