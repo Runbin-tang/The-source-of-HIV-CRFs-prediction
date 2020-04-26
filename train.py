@@ -208,7 +208,7 @@ def puretrain(puredata,ttype):
     train_valdata1=np.array(train_valdata)[:,1:].astype(float)
     
     ttype=ttype+'pure'
-    ###
+    ###train modles with three multi-label classifiers: mlknn breknna  mlarmc
     filename=('score/'+ttype+'score.txt')
     
     knnscore,kpre=mlknn(train_traindata1, train_trainlabel,
@@ -253,7 +253,7 @@ def purecrftrain(puredata,crfdata,ttype):
     testdata=np.array(testdata)
     random.seed(42)  
     np.random.shuffle(testdata)
-    np.savetxt("testdata/"+ttype+"_purecrf_testdata.txt", testdata, fmt="%s", delimiter=",")
+    np.savetxt("testdata/"+ttype+"_purecrf_testdata.txt", testdata, fmt="%s", delimiter=",")  # save the testdata after randly choose data
     train_val_random=randomchoose(traindata)  #choose the valcation set from traindata  
 
     train_traindata=[];train_valdata=[];
@@ -270,7 +270,7 @@ def purecrftrain(puredata,crfdata,ttype):
     train_valdata1=np.array(train_valdata)[:,1:].astype(float)
     
     ttype=ttype+'crf'
-    ###
+    ###  train modles with three multi-label classifiers: mlknn breknna  mlarmc
     filename=('score/'+ttype+'score.txt')
     knnscore,kpre=mlknn(train_traindata1, train_trainlabel,
                         train_valdata1,train_vallabel,
@@ -299,7 +299,7 @@ if __name__ == '__main__':
     ttypee=['cg','pol']
     filename=[]
     for i in ttypee:
-        filename.append('../data1/'+i+'pure2.txt')
+        filename.append('../data1/'+i+'pure2.txt')  # upload the path of data file
         filename.append('../data1/'+i+'crf2.txt')
     
     
@@ -310,9 +310,9 @@ if __name__ == '__main__':
     cgcrfdata   = data[1]
     polpuredata = data[2]
     polcrfdata  = data[3]
-    
+    # train
     p='pure'
-    puretrain(cgpuredata,'cg')
+    puretrain(cgpuredata,'cg')  
     puretrain(polpuredata,'pol')
     p='crf'
     purecrftrain(cgpuredata,cgcrfdata,'cg')
