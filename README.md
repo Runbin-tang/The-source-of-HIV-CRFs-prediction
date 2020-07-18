@@ -16,8 +16,8 @@ test_voting.py predictes the data with the three models.
 
 ##when training models (because the data file save at the data1/, so it only need to run the train.py, else you need to adjust the position of the data, or replace the 208 lines in train.py as the path of your traindata ）
 
-1. python train.py
+2. python train.py
 
 ##when predicting,
-1. rewrite the configure 
-2. python test_voting.py
+3. rewrite the configure 
+4. python test_voting.py
