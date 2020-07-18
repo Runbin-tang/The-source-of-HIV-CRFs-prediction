@@ -18,6 +18,7 @@ test_voting.py predictes the data with the three models.
 
 2. python train.py
 
-##when predicting,
-3. rewrite the configure 
+##when predicting,\\
+3. rewrite the configure\\
+
 4. python test_voting.py
