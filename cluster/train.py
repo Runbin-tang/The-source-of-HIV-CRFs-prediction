@@ -218,9 +218,9 @@ if __name__ == '__main__':
 
     print('start ')   
     p='pure'
-    puretrain(cgpuredata,'cg')
+    #puretrain(cgpuredata,'cg')
     puretrain(polpuredata,'pol')
     p='crf'
-    purecrftrain(cgpuredata,cgcrfdata,'cg')
+    #purecrftrain(cgpuredata,cgcrfdata,'cg')
     purecrftrain(polpuredata,polcrfdata,'pol')
     

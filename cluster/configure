@@ -1,0 +1,13 @@
+#datafile : the path of datafile
+datafile=./data/polcrftest.txt
+#save folder is 'predictionresult/',please input the save filename
+savefile=./predictionresult/polcrf
+#if the dataset is our test set, please input 1, else input 0
+ifte=1
+#dataype : 0 or 1  if complete genome, please input 0, if pol gene, input 1
+datatype=1
+#stype : 0 or 1   if data is crf pelease input 0, if data is pure input 1, if don't know, input 2;
+stype=0
+#poolnum : the number of multiprocess
+poolnum=10
+
