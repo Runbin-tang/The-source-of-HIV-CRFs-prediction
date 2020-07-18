@@ -8,4 +8,5 @@ in the paper, Only used the following files：
 3. cgcrf2.txt and cgpure2.txt save the name of complete genome of crf and pure sequence.
 4. cg_crf_testname.txt, cg_pure_testname.txt, pol_crf_testname.txt and pol_pure_testname.txt save the name of 4 types testdata, respectively.
 5. the mix_* save the name of crf and its pure subtype, it was used when drawed the 3D MoMaps.
-6. ref/* save the name of pure and crf which are used to process of test. They are randomly selected from the training set. And when generating the refdata, the outfilename need to be named as ‘*_ref.txt’, * represent cgcrf,cgpure,polcrf,polpure/.
+6. ref/* save the name of pure and crf which are used to process of test. They are randomly selected from the training set. And when generating the refdata, 
+the outfilename need to be named as ‘*_ref.txt’, * represent cgcrf,cgpure,polcrf,polpure/.
