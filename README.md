@@ -5,7 +5,7 @@ getting features folder is  to obtain the features from the sequences.\
 model folder is the position of saving the models.\
 data1 is the position of saving the data.
 
-The cluster folder is to cluster the each type of HIV-1 sequences before analysis.
+The cluster folder is to cluste the each type of HIV-1 sequences before analysis. After clusting, Perform the following operations 1-4.
 
 configure is the information of the upload files.\
 dataprocess.py is the public module of train.py and test_voting.py \
