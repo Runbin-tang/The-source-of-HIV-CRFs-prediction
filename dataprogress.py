@@ -97,7 +97,7 @@ def get_label(data):
         s=subtype(data[i][0].split('/')[-1].split('_')[0])
         label.append(s)
         if s[0] not in label_list:
-            print(i,data[i][0],s)
+            print(i,data[i][0],'not in the test set, please rewrite the "ifte" in config)
         
     #d=Counter(label)
     mlb = MultiLabelBinarizer()
@@ -114,7 +114,7 @@ def pure_get_label(data):
         s=subtype(data[i][0].split('/')[-1].split('_')[0])
         label.append(s)
         if s[0] not in label_list:
-            print(i,data[i][0],s)
+            print(i,data[i][0],'not in the test set, please rewrite the "ifte" in config')
         
     #d=Counter(label)
     mlb = MultiLabelBinarizer()
