@@ -10,4 +10,4 @@ in the paper, Only used the following files：
 5. the mix_* save the name of crf and its pure subtype, it was used when drawed the 3D MoMaps.
 6. ref/* save the name of pure and crf which are used to process of test. They are randomly selected from the training set. And when generating the refdata, 
     the outfilename need to be named as ‘*_ref.txt’, * represent cgcrf,cgpure,polcrf,polpure/.
-7. test_remove999/* save the name after remove 99.9% similarity sequences from test set.
+7. test_remove999/* save the name after remove 99% similarity sequences from test set.
